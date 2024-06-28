@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import "./Bottle.css";
 const Bottle = ({ bottle, handlePurchaseData }) => {
-  console.log(bottle);
+  //   console.log(bottle);
   return (
     <div className="bottle">
       <img src={bottle.img} alt="" />
